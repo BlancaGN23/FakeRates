@@ -1,0 +1,161 @@
+//July 10, 2020
+//Fake Rate Map - fake rate values returned as a function of pseudorapidity and transverse momentum of base electron
+
+#include <iostream>
+using namespace std;
+
+float x;
+float y;
+
+int FR2(){
+cout << "Enter pseudorapidity  "<< endl;
+
+cin>>x;
+
+if (x >= 0 && x<0.8){
+    cout << "Enter pT of base electron  " << endl;
+    cin >> y;
+    if (y>=25 && y<35){
+        cout << "FR is 0.0147 "<<endl;}
+    else if (y>=35 && y<45) {
+        cout << "FR is 0.0172 "<<endl;}
+    else if (y>=45 && y<55) {
+        cout << "FR is 0.0161 "<<endl;}
+    else if (y>=55 && y<65) {
+        cout << "FR is 0.0188 "<<endl;}
+    else if (y>=65 && y<75) {
+        cout << "FR is 0.0199 "<<endl;}
+    else if (y>=75 && y<100) {
+        cout << "FR is 0.0188 "<<endl;}
+    else if (y>=100 && y<150) {
+        cout << "FR is 0.0190 "<<endl;}
+    else if (y>=150 && y<250) {
+        cout << "FR is 0.0217 "<<endl;}
+    else {
+        cout << "pT out of range  "<<endl;}
+}
+
+else if (x >= 0.8 && x<1.15){
+    cout << "Enter pT of base electron  " << endl;
+    cin >> y;
+    if (y>=25 && y<35){
+        cout << "FR is 0.0183 "<<endl;}
+    else if (y>=35 && y<45) {
+        cout << "FR is 0.0198 "<<endl;}
+    else if (y>=45 && y<55) {
+        cout << "FR is 0.0196 "<<endl;}
+    else if (y>=55 && y<65) {
+        cout << "FR is 0.0211 "<<endl;}
+    else if (y>=65 && y<75) {
+        cout << "FR is 0.0233 "<<endl;}
+    else if (y>=75 && y<100) {
+        cout << "FR is 0.0215 "<<endl;}
+    else if (y>=100 && y<150) {
+        cout << "FR is 0.0223 "<<endl;}
+    else if (y>=150 && y<250) {
+        cout << "FR is 0.0240 "<<endl;}
+    else {
+        cout << "pT out of range  "<<endl;}
+}
+
+else if (x >= 1.15 && x<1.37){
+    cout << "Enter pT of base electron  " << endl;
+    cin >> y;
+    if (y>=25 && y<35){
+        cout << "FR is 0.0256 "<<endl;}
+    else if (y>=35 && y<45) {
+        cout << "FR is 0.0291 "<<endl;}
+    else if (y>=45 && y<55) {
+        cout << "FR is 0.0278 "<<endl;}
+    else if (y>=55 && y<65) {
+        cout << "FR is 0.0303 "<<endl;}
+    else if (y>=65 && y<75) {
+        cout << "FR is 0.0303 "<<endl;}
+    else if (y>=75 && y<100) {
+        cout << "FR is 0.0315 "<<endl;}
+    else if (y>=100 && y<150) {
+        cout << "FR is 0.0301 "<<endl;}
+    else if (y>=150 && y<250) {
+        cout << "FR is 0.0319 "<<endl;}
+    else {
+        cout << "pT out of range  "<<endl;}
+}
+
+else if (x >= 1.52 && x<1.81){
+    cout << "Enter pT of base electron  " << endl;
+    cin >> y;
+    if (y>=25 && y<35){
+        cout << "FR is 0.0363 "<<endl;}
+    else if (y>=35 && y<45) {
+        cout << "FR is 0.0379 "<<endl;}
+    else if (y>=45 && y<55) {
+        cout << "FR is 0.0372 "<<endl;}
+    else if (y>=55 && y<65) {
+        cout << "FR is 0.0398 "<<endl;}
+    else if (y>=65 && y<75) {
+        cout << "FR is 0.0411 "<<endl;}
+    else if (y>=75 && y<100) {
+        cout << "FR is 0.0418 "<<endl;}
+    else if (y>=100 && y<150) {
+        cout << "FR is 0.0439 "<<endl;}
+    else if (y>=150 && y<250) {
+        cout << "FR is 0.0437 "<<endl;}
+    else {
+        cout << "pT out of range  "<<endl;}
+}
+
+
+else if (x >= 1.81 && x<2.01){
+    cout << "Enter pT of base electron  " << endl;
+    cin >> y;
+    if (y>=25 && y<35){
+        cout << "FR is 0.0443 "<<endl;}
+    else if (y>=35 && y<45) {
+        cout << "FR is 0.0471 "<<endl;}
+    else if (y>=45 && y<55) {
+        cout << "FR is 0.0477 "<<endl;}
+    else if (y>=55 && y<65) {
+        cout << "FR is 0.0530 "<<endl;}
+    else if (y>=65 && y<75) {
+        cout << "FR is 0.0519 "<<endl;}
+    else if (y>=75 && y<100) {
+        cout << "FR is 0.0536 "<<endl;}
+    else if (y>=100 && y<150) {
+        cout << "FR is 0.0556 "<<endl;}
+    else if (y>=150 && y<250) {
+        cout << "FR is 0.0543 "<<endl;}
+    else {
+        cout << "pT out of range  "<<endl;}
+}
+
+
+else if (x >= 2.01 && x<2.37){
+    cout << "Enter pT of base electron  " << endl;
+    cin >> y;
+    if (y>=25 && y<35){
+        cout << "FR is 0.0657 "<<endl;}
+    else if (y>=35 && y<45) {
+        cout << "FR is 0.0741 "<<endl;}
+    else if (y>=45 && y<55) {
+        cout << "FR is 0.0772 "<<endl;}
+    else if (y>=55 && y<65) {
+        cout << "FR is 0.0826 "<<endl;}
+    else if (y>=65 && y<75) {
+        cout << "FR is 0.0855 "<<endl;}
+    else if (y>=75 && y<100) {
+        cout << "FR is 0.0862 "<<endl;}
+    else if (y>=100 && y<150) {
+        cout << "FR is 0.0833 "<<endl;}
+    else if (y>=150 && y<250) {
+        cout << "FR is 0.0906 "<<endl;}
+    else {
+        cout << "pT out of range  "<<endl;}
+}
+
+
+
+else {
+    cout << "Pseudorapidity out of range  "<<endl;}
+
+return 0;
+}
